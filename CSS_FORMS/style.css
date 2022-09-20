@@ -1,0 +1,76 @@
+:root{
+    --primary-color: #f3f3f3;
+    --outline-color: #d4d4d4;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    margin-left: 6%;
+}
+
+h1::after{
+    content: "\00d7";
+    padding-right: 6%;
+    float: right;
+}
+
+.form-center {
+    display:flex;
+    justify-content: center;
+  }
+
+form{
+    width: 90%;
+    background-color: var(--primary-color);
+    outline-style: solid;
+    outline-color: var(--outline-color);
+    border-radius: 10pt;
+}
+
+label{
+    margin-top: 9px;
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+input{
+    width: 240px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+#grizti-i-adresu-sarasa{
+    margin: 30px auto;
+    float: right;
+    transform: translate(0%, -450%);
+    margin-right: 30px;
+}
+
+#nauja-adresa-h{
+    margin: 30px auto;
+    margin-left: 30px;
+}
+
+#saugoti{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 10pt;
+    transform: translate(30%, 0%);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer{
+    clear: both;
+}
