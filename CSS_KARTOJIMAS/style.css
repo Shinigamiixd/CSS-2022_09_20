@@ -1,0 +1,23 @@
+body{
+    background-image: url("asd.jpg");
+    width: 100vw;
+}
+
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: red;
+}
+
+.container::before{
+    content: " ";
+    width: 50%;
+    height: 100vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
