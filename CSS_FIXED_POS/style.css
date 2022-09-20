@@ -1,0 +1,40 @@
+body{
+    width: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    top: 20px;
+    background-color: aqua;
+    position: fixed;
+    transform: translate(0%, -21%);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    width: 10vh;
+    height: 6vh;
+    margin: 10px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+a {
+    position: fixed;
+    text-decoration: none;
+    transform: translate(-50%, 100%);
+    color: black;
+}
+
+h2{
+    margin-top: 100px;
+    scroll-margin-top: 6rem;
+}
